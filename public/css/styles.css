@@ -1,0 +1,25 @@
+body{
+  background-image: url('http://fc05.deviantart.net/fs71/f/2012/242/3/6/fog_clouds_png_by_paradise234-d5czivb.png');
+  background-color: dodgerblue;
+  background-position: 0,0;
+}
+#mainwrapper{
+  margin: 0 auto;
+  margin-top:0;
+  height:100%;
+}
+
+#mainwrapper h1 {
+  margin:0;
+}
+
+.cloud{
+  margin: 5%;
+  height: 200px;
+  float:left;
+  width:300px;
+  position:absolute;
+  left:-400px;
+}
+
+
