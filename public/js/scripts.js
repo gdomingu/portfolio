@@ -24,6 +24,13 @@ $(document).ready(function(){
           duration: 5000
         });
     }, 4000);
+
+    window.setTimeout(function() {
+      cloud.animate({ "top": "-=100px" }, {
+          queue: false,
+          duration: 5000
+        });
+    }, 7000);
   }
     moveCloud(cloud1);
     moveCloud(cloud2);

@@ -1,16 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400italic);
 body{
   background-image: url('http://fc05.deviantart.net/fs71/f/2012/242/3/6/fog_clouds_png_by_paradise234-d5czivb.png');
   background-color: dodgerblue;
   background-position: 0,0;
+  width:100%;
+  overflow: hidden;
 }
 #mainwrapper{
   margin: 0 auto;
   margin-top:0;
   height:100%;
-}
-
-#mainwrapper h1 {
-  margin:0;
 }
 
 .cloud{
@@ -19,7 +18,53 @@ body{
   float:left;
   width:300px;
   position:absolute;
-  left:-400px;
+  left:-700px;
 }
 
+.title{
+   width:100%;
+}
 
+.title h1{
+  text-align: center;
+  color:white;
+  font-family: 'IM Fell DW Pica', serif; font-style:italic;
+
+}
+
+.links{
+  text-align: center;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  font-family: 'IM Fell DW Pica', serif; font-style:italic;
+}
+
+a:link{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  color:blue;
+}
+[title]{
+    position:relative;
+}
+[title]:after{
+    content:attr(title);
+    color:#fff;
+    background:#333;
+    background:rgba(51,51,51,0.75);
+    padding:5px;
+    position:absolute;
+    left:-9999px;
+    opacity:0;
+    bottom:100%;
+    white-space:nowrap;
+    -webkit-transition:0.25s linear opacity;
+}
+[title]:hover:after{
+    left:300px;
+    opacity:1;
+}
