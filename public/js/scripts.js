@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   function moveCloud(cloud){
 
-    cloud.animate({ "left": "+=2500px" }, cloud.attr('id') * 8100, function(){
+    cloud.animate({ "left": "+=2000px" }, cloud.attr('id') * 10000, function(){
         cloud.removeAttr('style')
         moveCloud(cloud)
       });

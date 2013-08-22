@@ -14,13 +14,16 @@ body{
 
 .cloud{
   margin: 5%;
-  height: 200px;
+  height: 100px;
   float:left;
-  width:300px;
+  width:200px;
   position:absolute;
-  left:-700px;
+  left:-600px;
 }
-
+.cloud img{
+  height:279px;
+  width: 513px;
+}
 .title{
    width:100%;
 }
@@ -38,7 +41,6 @@ body{
   bottom:10px;
   width:100%;
   font-family: 'IM Fell DW Pica', serif; font-style:italic;
-  padding-left: 41%;
 }
 
 .links a:link{
@@ -71,18 +73,19 @@ body{
 }
 
 .desc{
-  height:400px;
+  height:355px;
   width:850px;
   background-color:white;
   bottom:100px;
   position:absolute;
-  left:27%;
+  left:50%;
   padding-top: 0;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   display:none;
   padding:4px;
+  margin-left:-425px;
 }
 
 p, li{
@@ -95,7 +98,7 @@ p, li{
 
 #mailicon, #githubicon, #twittericon, #linkedinicon{
   width:90px;
-  float:left;
+  display:inline-block;
 }
 
 #hidelink{
