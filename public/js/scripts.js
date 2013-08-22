@@ -6,6 +6,7 @@ $(document).ready(function(){
   var cloud5 = $("#6")
   var cloud6 = $("#7")
   var clouds = $(".cloud")
+
   function moveCloud(cloud){
 
     cloud.animate({ "left": "+=2500px" }, cloud.attr('id') * 8100, function(){
@@ -42,6 +43,10 @@ $(document).ready(function(){
 
 $('#2 img').hover(function () {
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/dlp_up_side.png';
+        $('.desc').children().hide();
+        $('.desc').css('display', 'block')
+        $('#dlpcontent').css('display', 'block');
+        $('#hidelink').css('display', 'block');
     }, function () {
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png';
     });
@@ -49,6 +54,10 @@ $('#2 img').hover(function () {
 
 $('#4 img').hover(function () {
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/smitten4.png';
+        $('.desc').children().hide();
+        $('.desc').css('display', 'block')
+        $('#smittencontent').css('display', 'block');
+        $('#hidelink').css('display', 'block');
     }, function () {
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png';
     });
@@ -60,6 +69,7 @@ $('#6 img').hover(function () {
     });
 
 $('#3 img').hover(function () {
+        console.log(this)
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/github_right_side.png';
     }, function () {
         this.src = 'http://i287.photobucket.com/albums/ll124/falk826/Secert%20of%20The%20Black%20Unicorn/1-cloud.png';
@@ -71,7 +81,27 @@ $('#5 img').hover(function () {
         this.src = 'http://i287.photobucket.com/albums/ll124/falk826/Secert%20of%20The%20Black%20Unicorn/1-cloud.png';
     });
 
+$("#linkedinicon").hover(function () {
+        $('#6 img')[0].src = 'https://s3-us-west-2.amazonaws.com/gabe-random/linked_up_side.png';
+    }, function () {
+        $('#6 img')[0].src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png';
+    });
 
+$("#githubicon").hover(function () {
+        $('#3 img')[0].src = 'https://s3-us-west-2.amazonaws.com/gabe-random/github_right_side.png';
+    }, function () {
+        $('#3 img')[0].src = 'http://i287.photobucket.com/albums/ll124/falk826/Secert%20of%20The%20Black%20Unicorn/1-cloud.png';
+    });
+
+$("#twittericon").hover(function () {
+        $('#5 img')[0].src = 'https://s3-us-west-2.amazonaws.com/gabe-random/twitter_right_side.png';
+    }, function () {
+        $('#5 img')[0].src = 'http://i287.photobucket.com/albums/ll124/falk826/Secert%20of%20The%20Black%20Unicorn/1-cloud.png';
+    });
+
+$("#hidelink").on('click', function(){
+  $(".desc").hide()
+})
 
 
 
