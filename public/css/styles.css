@@ -79,17 +79,18 @@ body{
   bottom:100px;
   position:absolute;
   left:50%;
-  padding-top: 0;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   display:none;
-  padding:4px;
+  padding:10px;
   margin-left:-425px;
+  background-image: url('https://s3-us-west-2.amazonaws.com/gabe-random/foggy_birds_%402X.png');
+
 }
 
 p, li{
-  font-size: large;
+/*  font-size: large;*/
 }
 
 #dlpcontent, #smittencontent{
