@@ -100,8 +100,8 @@ $("#twittericon").hover(function () {
     });
 
 $("#hidelink").on('click', function(){
-  $(".desc").hide()
-})
+  $(".desc").hide();
+});
 
 
 

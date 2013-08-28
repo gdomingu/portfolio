@@ -106,6 +106,39 @@ p, li{
 #hidelink{
   position:absolute;
   width: 60px;
-  right:0;
+  right:-35;
   margin:0;
+}
+.close{
+  position:relative;
+  width:0.3em;
+  height:1.0em;
+  background: #2C2C2C;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+font-size: 22px;
+}
+.close:after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:0.3em;
+  height:1.0em;
+  background: #2C2C2C;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.close:hover {
+  background-color: #5959AB;
+}
+.close:hover:after {
+  background-color: #5959AB;
 }
