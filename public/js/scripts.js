@@ -38,13 +38,14 @@ $(document).ready(function(){
     moveCloud(cloud3);
     moveCloud(cloud4);
     moveCloud(cloud5);
-    // moveCloud(cloud6);
+    moveCloud(cloud6);
 });
 
 $('#2 img').hover(function () {
+        var desc = $(".desc")
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/dlp_up_side.png';
-        $('.desc').children().hide();
-        $('.desc').css('display', 'block')
+        desc.children().hide();
+        desc.css('display', 'block')
         $('#dlpcontent').css('display', 'block');
         $('#hidelink').css('display', 'block');
     }, function () {
@@ -53,9 +54,10 @@ $('#2 img').hover(function () {
 
 
 $('#4 img').hover(function () {
+        var desc = $(".desc")
         this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/smitten4.png';
-        $('.desc').children().hide();
-        $('.desc').css('display', 'block')
+        desc.children().hide();
+        desc.css('display', 'block')
         $('#smittencontent').css('display', 'block');
         $('#hidelink').css('display', 'block');
     }, function () {
@@ -63,22 +65,32 @@ $('#4 img').hover(function () {
     });
 
 $('#6 img').hover(function () {
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/linked_up_side.png';
-    }, function () {
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png';
+  this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/linked_up_side.png';
+}, function () {
+      this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png';
     });
 
 $('#3 img').hover(function () {
-        console.log(this)
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/github_right_side.png';
-    }, function () {
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png';
+  this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/github_right_side.png';
+}, function () {
+      this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png';
     });
 
 $('#5 img').hover(function () {
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/twitter_right_side.png';
-    }, function () {
-        this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png';
+  this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/twitter_right_side.png';
+}, function () {
+      this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png';
+    });
+
+$('#7 img').hover(function(){
+  var desc = $(".desc")
+  this.src= 'https://s3-us-west-2.amazonaws.com/gabe-random/hanoi_right_side.png';
+  desc.children().hide();
+  desc.css('display', 'block')
+  $('#hanoicontent').css('display', 'block');
+  $('#hidelink').css('display', 'block');
+}, function(){
+      this.src = 'https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png'
     });
 
 $("#linkedinicon").hover(function () {

@@ -1,0 +1,64 @@
+html{
+  background: url('http://www.chrystal-clear.com/wp-content/uploads/2012/04/vietnam-sapa-tran-quoc-pagoda.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+h1{
+  text-align: center;
+  color:#FCF6CF;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+#container{
+  background-color: white;
+  height:400px;
+  width:400px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 200px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border:solid 10px;
+}
+
+#pegcontainer{
+  height:50px;
+  width:300px;
+  padding-left:70px;
+  padding-top: 50px;
+}
+
+.peg{
+  float: left;
+  width: 75px;
+  margin: 0 15px 0 0;
+  padding: 100px 0 0 0;
+  border-bottom: 3px solid #333;
+  border: 1px solid;
+  background-color: #cccccc;
+}
+.disc{
+  list-style: none;
+  text-align: center;
+  margin-bottom: 2px;
+  height:15px;
+  width:100%;
+  background-color: brown;
+}
+.pegpicture{
+  height:100%;
+  width:25px;
+  background-color: brown;
+}
+
+h3{
+  width:400px;
+  border-bottom:solid 10px;
+  position:relative;
+  left:0;
+  padding:5px;
+  margin:0
+}
