@@ -20,7 +20,12 @@ GEM
     atomic (1.1.13)
     backports (3.3.3)
     builder (3.1.4)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
     eventmachine (1.0.3)
+    execjs (2.0.0)
     haml (4.0.3)
       tilt
     i18n (0.6.5)
@@ -57,6 +62,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  coffee-script
   haml
   sass
   sinatra

@@ -4,10 +4,18 @@
     %link{:href => "/css/hanoi.css.scss", :rel => "stylesheet", :type => "text/css"}
 
   %body
+    #homeicon
+      %a{:href => '/'}
+        %img(src='/img/home.png')
     %h1 Welcome to the Towers of Hanoi
+
     #container
       %h3 Stack all the pegs up in the right order on the 3rd peg to win the game.
+      %button#playbutton Play
       #pegcontainer
         #peg1.peg
         #peg2.peg
         #peg3.peg
+
+%script{:src => "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}
+%script{:src => "/js/hanoi.js"}

@@ -62,3 +62,21 @@ h3{
   padding:5px;
   margin:0
 }
+
+#homeicon{
+  position:absolute
+  left:0;
+  top:0;
+  width:0px;
+  float:left;
+}
+#playbutton{
+  position:absolute
+  right:0;
+  top:0;
+  float:right;
+}
+#homeicon img{
+  height:70px;
+  width:90px;
+}
