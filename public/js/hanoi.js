@@ -6,7 +6,7 @@ $(document).ready(function(){
   function play(){
     var discnum = prompt("How many discs?")
     var counter = 0
-
+    var moves = 0
     function setup(){
       if (counter < discnum){
         counter++
@@ -25,8 +25,10 @@ $(document).ready(function(){
               $(this).prepend(currentdisc.removeAttr('style'))
               $(this).children().draggable().draggable('destroy');
               $( ".peg div:first-child" ).draggable();
+              moves++
+              $('#movescounter').empty().html('<p>Number of moves: '+moves+'</p>')
               if ($('#peg3').find('div').length == discnum){
-                alert('You win!');
+                alert('You win in ' +moves+ ' moves!');
               }
             } else {
               alert("you can't move there!")
@@ -39,6 +41,7 @@ $(document).ready(function(){
   }
 
   $('#playbutton').on('click', function(){
+    peg3.empty();
     play();
   });
 });
