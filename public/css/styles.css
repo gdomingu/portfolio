@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400italic);
+/*@import url(http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400italic);*/
+@import url(http://fonts.googleapis.com/css?family=Syncopate);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic);
 body{
   background-image: url('http://fc05.deviantart.net/fs71/f/2012/242/3/6/fog_clouds_png_by_paradise234-d5czivb.png');
@@ -20,6 +21,7 @@ body{
   width:200px;
   position:absolute;
   left:-600px;
+  top:50px;
 }
 .cloud img{
   height:279px;
@@ -32,7 +34,8 @@ body{
 .title h1{
   text-align: center;
   color:white;
-  font-family: 'IM Fell DW Pica', serif; font-style:italic;
+  /*font-family: 'IM Fell DW Pica', serif; font-style:italic;*/
+  font-family: 'Syncopate', sans-serif;
 
 }
 
@@ -41,7 +44,6 @@ body{
   position: absolute;
   bottom:10px;
   width:100%;
-  font-family: 'IM Fell DW Pica', serif; font-style:italic;
 }
 
 .links a:link{
@@ -74,17 +76,17 @@ body{
 }
 
 .desc{
-  height:355px;
+  height:350px;
   width:850px;
   background-color:white;
-  bottom:100px;
+  bottom:90px;
   position:absolute;
   left:50%;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   display:none;
-  padding:10px;
+  padding:10px 10px 0 10px;
   margin-left:-425px;
   background-image: url('https://s3-us-west-2.amazonaws.com/gabe-random/foggy_birds_%402X.png');
 
