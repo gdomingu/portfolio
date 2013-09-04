@@ -148,3 +148,8 @@ font-size: 22px;
 h2 {
   margin:0;
 }
+
+#language{
+  position:absolute;
+  right:0;
+}
