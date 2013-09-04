@@ -1,0 +1,95 @@
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %link{:href => "/css/styles.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "/css/normalize.css", :rel => "stylesheet", :type => "text/css"}
+
+  %body
+    #language
+      %a{:href => "/"} English
+      %a{:href => "/japanese"}日本語
+    #centerwrapper
+      .title
+        %h1　ガブリエル・ドミンゲス
+      .cloud#2
+        %a{:href => "http://sfdaylabor.herokuapp.com/", :title => "SF日雇い労働プログラム"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png')
+      .cloud#3
+        %a{:href => "https://github.com/gdomingu", :title => "Github"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png')
+      .cloud#4
+        %a{:href => "http://www.smitten.us", :title => "Smitten"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png')
+      .cloud#5
+        %a{:href => "https://twitter.com/Gabudomingu", :title => "Twitter"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png')
+      .cloud#6
+        %a{:href => "http://www.linkedin.com/pub/gabriel-dominguez/29/495/667/", :title => "LinkedIn"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud_upside.png')
+      .cloud#7
+        %a{:href => "towersofhanoi", :title => "ハノイの塔"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/1-cloud.png')
+      .desc
+        #hidelink
+          .close
+        #dlpcontent
+          %h2 サンフランシスコ日雇い労働プログラム
+          %p
+            %a{:href => "http://sfdaylabor.herokuapp.com/"}これは
+            私が「サンフランシスコ日雇い労働プログラム」と「女子集団」という兄弟協会の要求によって作成されたRailsのアプリです。クライアントのために働いて私の初めてだった。
+          %p このアプリは現実的な機能があって、本当の人が利用する可能性があるから、作るのはとても面白かったです。そのうえ、クライアントさんがテクニカル知識がほとんどないけど、意外と楽しい経験。クライアントさんは、組織内の問題に説明して、私はそれらの問題を解決するために何かを構築しました。
+          %p 主な目標：
+          %ul
+            %li プログラムのメンバーに関するすべての情報を整理するために、リレーショナル·データベースを構築します。
+            %li 時間がかかる小さなタスクを減らすように、 効率を向上させ、組織の従業員に合わせた管理インターフェイスを構築します。
+            %li サイトに来て潜在的な雇用者のために、ユーザエクスペリエンスを向上させるために新しい機能を作成します。
+        #smittencontent
+          %h1 Smitten
+          %p
+            %a{:href => "http://www.smitten.com"}Smitten
+            というものはGeneral Assemblyの
+            %a{:href => "https://generalassemb.ly/education/web-development-immersive"}Web Development Immersive
+            のファイナルプロジェクトだった。
+          %p
+            私のチームは素晴らしいクラスメートの3人、
+            %a{:href => "http://bayleefeore.com"}ベイリーさん、
+            %a{:href => ""}ワイカットさん、
+            と
+            %a{:href => ""}エリックさん
+            を含めました。私のようにチームの全員は、このクラスの前にプログラミング知識がありませんでした。
+          %p Smittenには一目惚れを促進するために作成アプリです。このチームは若くて楽観的にロマンチックあるから、スーパーで、またコインランドリーで恋に落ちる男の子か女の子との接続に役立つアプリを作ることにしました。
+          %p ハイライト：
+          %ul
+            %li モバイルウエッブアプリケーション
+            %li ナビゲートするために、スワイプ機能もあります
+            %li Facebookのソーシャルログイン
+            %li ユーザメッセージング
+        #hanoicontent
+          %h1 ハノイの塔
+          %p
+            %a{:href => "towersofhanoi"}ハノイの塔
+            というゲームの目標はすべてのドーナツが右端のペグに正しい順序で積み上げ取得することです。ユーザーエクスペリエンスを頭に入れて置きながら、ドーナツを動かす方法はクリックではなく、自然にドーナツをドラッグすることができます。jQueryにベースにしたJavaScriptのライブラリであるjQuery UIを利用しています。
+          %p このゲームはもともとRailsアプリでしたが、これは 完全に「フロントエンド」のアプリであるため、私は単にこのサイトに静的なページに移動しました。このゲームは唯一HAML、JavaScript、およびCSSを使用しています。Rubyとか使用していません。
+          %p 楽しんでください！
+      .links
+        #mailicon
+          %a{:href => 'mailto:gabe.p.dominguez@gmail.com'}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/email.png')
+        #githubicon
+          %a{:href => "https://github.com/gdomingu"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/github.png')
+        #twittericon
+          %a{:href => "https://twitter.com/Gabudomingu"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/twitter.png')
+        #linkedinicon
+          %a{:href => "http://www.linkedin.com/pub/gabriel-dominguez/29/495/667/"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/linkedin.png')
+
+
+
+
+
+
+
+
+

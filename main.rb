@@ -10,3 +10,7 @@ end
 get '/towersofhanoi' do
   haml :towersofhanoi, :format => :html5
 end
+
+get "/japanese" do
+  haml :japanese, :format => :html5
+end

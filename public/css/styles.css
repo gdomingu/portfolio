@@ -144,3 +144,7 @@ font-size: 22px;
 .close:hover:after {
   background-color: #5959AB;
 }
+
+h2 {
+  margin:0;
+}
