@@ -1,0 +1,81 @@
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %link{:href => "/css/stylesmin.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "/css/normalize.css", :rel => "stylesheet", :type => "text/css"}
+
+  %body
+    #topnav
+      %a{:href => ""}about
+      %a{:href => ""}projects
+      %a{:href => ""}Ipsum
+    #about
+      %h2 Gabe Dominguez
+      .column1
+        .content
+          %h4 About Me
+          %p I am a proud San Francisco native and stereotype. My interests include foreign languages, saving the environment and most recently; start ups and web development.
+      .column2
+        .content
+          %ul
+            %h4 My Toolbox
+            %li Ruby on Rails
+            %li HTML
+            %li HAML
+            %li CSS
+            %li SASS
+            %li JavaScript
+            %li PostgreSQL
+            %li Git
+    #projects
+      #smitten
+        %h2 Smitten
+        .column1
+          .content
+            %h4 About
+            %p
+              %a{:href => "http://www.smitten.com"}Smitten
+              was my final project built in the last week of General Assembly's
+              %a{:href => "https://generalassemb.ly/education/web-development-immersive"}Web Development Immersive.
+            %p
+              The team consisted of 3 of my amazing classmates:
+              %a{:href => "http://bayleefeore.com"}Baylee,
+              %a{:href => "http://ykitten.github.io"}Ykat,
+              and
+              %a{:href => ""}Eric,
+              all who like myself had no previous knowledge of programming before this class.
+            %p Smitten is an app created to help facilitate love at first sight. Being young and romantically optimistic, our team decided to make an app that will help you connect with the boy or girl you fall in love with while in line at the grocery store or at the laundromat.
+        .column2
+          .content
+            %ul
+              %h4 Highlights:
+              %li One page mobile web app using Ajax
+              %li Swipe to navigate functionality
+              %li Social login with Facebook
+              %li User messaging
+      #dlp
+        %h2 SF Day Labor Program
+        .column1
+          .content
+            %h4 About
+            %p
+              %a{:href => "http://sfdaylabor.herokuapp.com/"}This
+              is a rails app I created by request of the SF Day Labor Program and Women's Collective. It was my first time working for a client.
+            %p I was pleased to discover that building something that was going to be used by real people while working with someone who had zero technical experience was very rewarding. The client told me about the problems within the organization, and I built something to solve those problems.
+        .column2
+          .content
+            %ul
+              %h4 Main Goals:
+              %li Set up a relational database to help organize all the information about the members of the program.
+              %li Build an admin interface tailored to the employees of the organization thereby improving efficiency so they can spend less time with busy work.
+              %li Create new functionality to improve user experience for potential employers who come to the website.
+      #hanoi
+        %h2 Towers of Hanoi
+        .column1
+          .content
+            %h4 About
+            %p
+              %a{:href => "towersofhanoi"}Towers of Hanoi
+              is a JavaScript game where the goal is to get all the donuts stacked up in the right order on the rightmost peg. I decided to utilize jQuery UI to add a little to the user experience by asking them to drag the "donuts" over rather than just clicking.
+            %p While this was originally built in a rails environment, because it is 100% a "front-end" app, I simply moved it over to a static page on this pofolio. It uses no ruby, only HAML, JavaScript, and CSS.
+            %p Please enjoy!

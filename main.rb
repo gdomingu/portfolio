@@ -14,3 +14,7 @@ end
 get "/japanese" do
   haml :japanese, :format => :html5
 end
+
+get "/min" do
+  haml :min, :format => :html5
+end
