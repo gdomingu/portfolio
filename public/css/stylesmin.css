@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Syncopate);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300);
 #topnav{
   height:25px;
   background-color:white;
@@ -11,8 +12,8 @@
 #topnav a{
   text-decoration: none;
   margin-right: 5px;
-  font-family: 'Oxygen', sans-serif;
-  font-size: large;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:300;
 }
 #topnav a:last-child{
   margin-right: 15px;
@@ -21,7 +22,8 @@
   height:80%;
   width:100%;
   border-bottom:1px solid;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight:300;
 }
 #welcome{
   height:83%;
@@ -49,19 +51,24 @@ h2{
   display:inline-block;
 }
 
-ul li{
-  text-align: left;
+#skills{
+  float:left;
+  margin-left:40px;
+}
+#skills ul{
+  list-style: none;
+  margin-left:0px;
+}
+ul{
+  margin-left:40px;
+  padding:0;
 }
 
-fieldset{
-  float:left;
-}
+
 @media screen and (min-width: 1087px) {
     #about, #smitten, #dlp, #hanoi{
       overflow: hidden;
       height:auto;
-      border-bottom:1px solid;
-      font-family: 'Oxygen', sans-serif;
     }
     #about, #smitten, #dlp, #hanoi{
       padding-bottom: 30px;
@@ -76,8 +83,6 @@ fieldset{
     #about, #smitten, #dlp, #hanoi{
       overflow: hidden;
       height:auto;
-      border-bottom:1px solid;
-      font-family: 'Oxygen', sans-serif;
     }
     #about, #smitten, #dlp, #hanoi{
       padding-bottom: 30px;
