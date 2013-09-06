@@ -6,10 +6,13 @@
 
   %body
     #topnav
-      %a{:href => ""}about
-      %a{:href => ""}projects
-      %a{:href => ""}Ipsum
+      %a{:href => "#about"}about
+      %a{:href => "#projects"}projects
+      %a{:href => "#contact"}contact
+    #welcome
+      #profpic
     #about
+      %a{:name => "about"}
       %h2 Gabe Dominguez
       .column1
         .content
@@ -28,6 +31,7 @@
             %li PostgreSQL
             %li Git
     #projects
+      %a{:name => "projects"}
       #smitten
         %h2 Smitten
         .column1
@@ -79,3 +83,18 @@
               is a JavaScript game where the goal is to get all the donuts stacked up in the right order on the rightmost peg. I decided to utilize jQuery UI to add a little to the user experience by asking them to drag the "donuts" over rather than just clicking.
             %p While this was originally built in a rails environment, because it is 100% a "front-end" app, I simply moved it over to a static page on this pofolio. It uses no ruby, only HAML, JavaScript, and CSS.
             %p Please enjoy!
+      .links
+        %a{:name => "contact"}
+        #mailicon
+          %a{:href => 'mailto:gabe.p.dominguez@gmail.com'}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/email.png')
+        #githubicon
+          %a{:href => "https://github.com/gdomingu"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/github.png')
+        #twittericon
+          %a{:href => "https://twitter.com/Gabudomingu"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/twitter.png')
+        #linkedinicon
+          %a{:href => "http://www.linkedin.com/pub/gabriel-dominguez/29/495/667/"}
+            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/linkedin.png')
+

@@ -1,23 +1,37 @@
 #topnav{
-  height:50px;
+  height:17px;
   background-color:blue;
   text-align: right;
   border-bottom: 1px solid;
+  padding-top:33px;
+  width:100%;
 }
 #topnav a{
   text-decoration: none;
 }
-#about, #smitten, #dlp, #hanoi{
+#about, #smitten, #dlp, #hanoi, #welcome{
   height:80%;
   width:100%;
   border-bottom:1px solid;
+}
+#welcome{
+  height:85%;
+}
+h2{
   text-align: center;
 }
 
-.column1, .column2{
-  width:50%;
+.column1{
+  width:70%;
   float:left;
-  text-align: center;
+  margin: 0 auto;
+  margin-left: 2%;
+}
+
+.column2{
+  width:28%;
+  float:left;
+  margin: 0 auto;
 }
 
 .content{
@@ -29,6 +43,34 @@ ul li{
   text-align: left;
 }
 
-/*@media screen and (min-width: 768px) {
-  selector { property: value; }
-}*/
+@media screen and (max-width: 900px) {
+    .column1, .column2{
+      width:90%;
+      text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #about, #smitten, #dlp, #hanoi{
+      height:100%;
+    }
+}
+
+#mailicon, #githubicon, #twittericon, #linkedinicon{
+  width:90px;
+  display:inline-block;
+}
+
+.links{
+  text-align: center;
+  width:100%;
+}
+
+#profpic{
+  background: url('https://s3-us-west-2.amazonaws.com/gabe-random/DSC_0131smallest.jpg') no-repeat top -70px center fixed;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height:100%;
+}
