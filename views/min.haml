@@ -18,18 +18,26 @@
         .content
           %h4 About Me
           %p I am a proud San Francisco native and stereotype. My interests include foreign languages, saving the environment and most recently; start ups and web development.
-      .column2
+      .column1
         .content
-          %ul
-            %h4 My Toolbox
-            %li Ruby on Rails
-            %li HTML
-            %li HAML
-            %li CSS
-            %li SASS
-            %li JavaScript
-            %li PostgreSQL
-            %li Git
+          %h4 My Toolbox
+          %fieldset
+            %legend Front-end
+            %ul
+              %li HTML
+              %li HAML
+              %li CSS
+              %li SASS
+              %li JavaScript
+          %fieldset
+            %legend Back-end
+            %ul
+              %li Ruby on Rails
+              %li PostgreSQL
+              %li Git
+              %li Rspec
+              %li Capybara
+
     #projects
       %a{:name => "projects"}
       #smitten
@@ -57,6 +65,12 @@
               %li Swipe to navigate functionality
               %li Social login with Facebook
               %li User messaging
+        .column1
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/landing.jpg')
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/dashboard.jpg')
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/newspark.jpg')
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/feed.jpg')
+
       #dlp
         %h2 SF Day Labor Program
         .column1
