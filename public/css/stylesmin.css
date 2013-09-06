@@ -57,25 +57,86 @@ fieldset{
   float:left;
 }
 @media screen and (min-width: 1087px) {
-    #about, #smitten, #dlp, #hanoi, #welcome{
-      height:100%;
-      width:100%;
+    #about, #smitten, #dlp, #hanoi{
+      overflow: hidden;
+      height:auto;
       border-bottom:1px solid;
       font-family: 'Oxygen', sans-serif;
     }
-}
-@media screen and (max-width: 900px) {
-    .column1, .column2{
-      width:90%;
-      text-align: center;
+    #about, #smitten, #dlp, #hanoi{
+      padding-bottom: 30px;
+    }
+    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
+      width:876px;
+      height:511px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1085px) {
     #about, #smitten, #dlp, #hanoi{
-      height:100%;
+      overflow: hidden;
+      height:auto;
+      border-bottom:1px solid;
+      font-family: 'Oxygen', sans-serif;
+    }
+    #about, #smitten, #dlp, #hanoi{
+      padding-bottom: 30px;
+    }
+   #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
+     width:876px;
+     height:511px;
+   }
+}
+
+
+@media screen and (max-width: 850px) {
+  .column1, .column2{
+    width:90%;
+    text-align: center;
+  }
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+      height:425px;
+      width:730px;
     }
 }
+
+@media screen and (max-width: 600px) {
+  .column1, .column2{
+    width:90%;
+    text-align: center;
+  }
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+      height:279px;
+      width:480px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+  .column1, .column2{
+    width:90%;
+    text-align: center;
+  }
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+      height:221px;
+      width:380px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #about, #smitten, #dlp, #hanoi{
+      height:auto;
+    }
+    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
+      width:300px;
+      height:175px;
+    }
+    #mailicon, #githubicon, #twittericon, #linkedinicon{
+      width:90px;
+      margin:10px;
+      display:inline-block;
+    }
+}
+
 
 #mailicon, #githubicon, #twittericon, #linkedinicon{
   width:90px;
@@ -103,4 +164,37 @@ fieldset{
 
 #smitten img{
   height:280px;
+}
+
+#dlpscreenshot{
+  float:left;
+  margin: 0 auto;
+  margin-left: 2%;
+  background: url('https://s3-us-west-2.amazonaws.com/gabe-random/dlphome.png') no-repeat center center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#dlpscreenshot2{
+  float:left;
+  margin: 0 auto;
+  margin-left: 2%;
+  background: url('https://s3-us-west-2.amazonaws.com/gabe-random/dispatch.png') no-repeat center center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#hanoiscreenshot{
+  float:left;
+  margin: 0 auto;
+  margin-left: 2%;
+  background: url('https://s3-us-west-2.amazonaws.com/gabe-random/hanoiss.png') no-repeat center center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
 }
