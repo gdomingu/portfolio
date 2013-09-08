@@ -4,6 +4,7 @@
     %meta{:name => "viewport", :content => "width=device-width"}
     %link{:href => "/css/stylesmin.css", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "/css/normalize.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css", :rel =>"stylesheet"}
 
   %body
     #topnav
@@ -57,6 +58,9 @@
               %a{:href => ""}Eric,
               all who like myself had no previous knowledge of programming before this class.
             %p Smitten is an app created to help facilitate love at first sight. Being young and romantically optimistic, our team decided to make an app that will help you connect with the boy or girl you fall in love with while in line at the grocery store or at the laundromat.
+            %a{:href => "http://www.smitten.com", :class => "tosite"}
+              %i{:class => "icon-rocket"}
+              To Site (mobile only)
         .column2
           .content
             %ul
@@ -70,7 +74,6 @@
           %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/dashboard.jpg')
           %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/newspark.jpg')
           %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/feed.jpg')
-
       #dlp
         %h2 SF Day Labor Program
         .column1
@@ -80,6 +83,9 @@
               %a{:href => "http://sfdaylabor.herokuapp.com/"}This
               is a rails app I created by request of the SF Day Labor Program and Women's Collective. It was my first time working for a client.
             %p I was pleased to discover that building something that was going to be used by real people while working with someone who had zero technical experience was very rewarding. The client told me about the problems within the organization, and I built something to solve those problems.
+            %a{:href => "http://sfdaylabor.herokuapp.com/", :class => "tosite"}
+              %i{:class => "icon-rocket"}
+              To Site
         .column2
           .content
             %ul
@@ -99,19 +105,18 @@
               is a JavaScript game where the goal is to get all the donuts stacked up in the right order on the rightmost peg. I decided to utilize jQuery UI to add a little to the user experience by asking them to drag the "donuts" over rather than just clicking.
             %p While this was originally built in a rails environment, because it is 100% a "front-end" app, I simply moved it over to a static page on this pofolio. It uses no ruby, only HAML, JavaScript, and CSS.
             %p Please enjoy!
+            %a{:href => "towersofhanoi", :class => "tosite"}
+              %i{:class => "icon-rocket"}
+              To Site
         #hanoiscreenshot
       .links
         %a{:name => "contact"}
-        #mailicon
-          %a{:href => 'mailto:gabe.p.dominguez@gmail.com'}
-            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/email.png')
-        #githubicon
-          %a{:href => "https://github.com/gdomingu"}
-            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/github.png')
-        #twittericon
-          %a{:href => "https://twitter.com/Gabudomingu"}
-            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/twitter.png')
-        #linkedinicon
-          %a{:href => "http://www.linkedin.com/pub/gabriel-dominguez/29/495/667/"}
-            %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/linkedin.png')
+        %a{:href => 'mailto:gabe.p.dominguez@gmail.com'}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/email.png')
+        %a{:href => "https://github.com/gdomingu"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/github.png')
+        %a{:href => "https://twitter.com/Gabudomingu"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/twitter.png')
+        %a{:href => "http://www.linkedin.com/pub/gabriel-dominguez/29/495/667/"}
+          %img(src='https://s3-us-west-2.amazonaws.com/gabe-random/linkedin.png')
 
