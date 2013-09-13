@@ -153,3 +153,15 @@ h2 {
   position:absolute;
   right:0;
 }
+
+#homeicon{
+  position:absolute
+  left:0;
+  bottom:0;
+  width:0px;
+  float:left;
+}
+#homeicon img{
+  height:70px;
+  width:90px;
+}

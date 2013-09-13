@@ -18,7 +18,7 @@
 #topnav a:last-child{
   margin-right: 15px;
 }
-#about, #smitten, #dlp, #hanoi, #welcome{
+#about, #smitten, #dlp, #hanoi, #welcome, #clouds{
   height:80%;
   width:100%;
   border-bottom:1px solid;
@@ -66,28 +66,28 @@ ul{
 
 
 @media screen and (min-width: 1087px) {
-    #about, #smitten, #dlp, #hanoi{
+    #about, #smitten, #dlp, #hanoi, #clouds{
       overflow: hidden;
       height:auto;
     }
-    #about, #smitten, #dlp, #hanoi{
+    #about, #smitten, #dlp, #hanoi, #clouds{
       padding-bottom: 30px;
     }
-    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
+    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
       width:876px;
       height:511px;
     }
 }
 
 @media screen and (max-width: 1085px) {
-    #about, #smitten, #dlp, #hanoi{
+    #about, #smitten, #dlp, #hanoi, #clouds{
       overflow: hidden;
       height:auto;
     }
-    #about, #smitten, #dlp, #hanoi{
+    #about, #smitten, #dlp, #hanoi, #clouds{
       padding-bottom: 30px;
     }
-   #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
+   #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
      width:876px;
      height:511px;
    }
@@ -99,7 +99,7 @@ ul{
     width:90%;
     text-align: center;
   }
-    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
       height:425px;
       width:730px;
     }
@@ -110,7 +110,7 @@ ul{
     width:90%;
     text-align: center;
   }
-    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
       height:279px;
       width:480px;
     }
@@ -121,26 +121,13 @@ ul{
     width:90%;
     text-align: center;
   }
-    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot{
+    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
       height:221px;
       width:380px;
     }
 }
 
-@media screen and (max-width: 321px) {
-    #about, #smitten, #dlp, #hanoi{
-      height:auto;
-    }
-    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot{
-      width:300px;
-      height:175px;
-    }
-    #mailicon, #githubicon, #twittericon, #linkedinicon{
-      width:90px;
-      margin:10px;
-      display:inline-block;
-    }
-}
+
 
 
 #mailicon, #githubicon, #twittericon, #linkedinicon{
@@ -166,7 +153,28 @@ ul{
            -ms-filter: grayscale(100%);
                filter: grayscale(100%);
 }
-
+@media screen and (max-width: 321px) {
+    #about, #smitten, #dlp, #hanoi, #clouds{
+      height:auto;
+    }
+    #dlpscreenshot, #dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
+      width:300px;
+      height:175px;
+    }
+    #profpic{
+      background: url('https://s3-us-west-2.amazonaws.com/gabe-random/profilepic.png') no-repeat center center;
+      height:368px;
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+    }
+    #mailicon, #githubicon, #twittericon, #linkedinicon{
+      width:90px;
+      margin:10px;
+      display:inline-block;
+    }
+}
 #smitten img{
   height:280px;
 }
@@ -198,6 +206,17 @@ ul{
   margin: 0 auto;
   margin-left: 2%;
   background: url('https://s3-us-west-2.amazonaws.com/gabe-random/hanoiss.png') no-repeat center center;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+#cloudscreenshot{
+  float:left;
+  margin: 0 auto;
+  margin-left: 2%;
+  background: url('https://s3-us-west-2.amazonaws.com/gabe-random/cloudss.png') no-repeat center center;
   -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
