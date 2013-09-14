@@ -45,8 +45,8 @@ h2{
   margin: 0 auto;
 }
 .columnfull{
- width:75%;
- margin-left:11%;
+ width:81%;
+ margin-left:5%;
 }
 .content{
   margin:0 auto;
@@ -62,7 +62,7 @@ h2{
   margin-left:0px;
 }
 ul{
-  margin-left:40px;
+  margin-left:50px;
   padding:0;
 }
 .screenshot{
@@ -103,7 +103,7 @@ ul{
      width:876px;
      height:511px;
    }
-   .column1{
+   .column1, .column2{
      margin-left: 5%;
    }
 
@@ -115,10 +115,10 @@ ul{
     width:90%;
     /*text-align: center;*/
   }
-    #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
+  #dlpscreenshot,#dlpscreenshot2, #hanoiscreenshot, #cloudscreenshot{
       height:425px;
       width:730px;
-    }
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -255,7 +255,7 @@ ul{
   margin-bottom: 20px;
   }
   .tosite:hover{
-    background-color: red;
+    background-color: #e66971;
   }
   .icon-rocket{
     margin-right:2px;
